@@ -91,7 +91,7 @@ namespace RandomNumberGenerator
         private async void Button_Click_3(object sender, RoutedEventArgs e)
         {
 
-            var messageDialog2 = new MessageDialog("This app generates numbers between two specified values");
+            var messageDialog2 = new MessageDialog("This app generates numbers between two specified values. Created by Raymond Dillon.");
             await messageDialog2.ShowAsync();
 
         }
